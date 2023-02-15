@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness99</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gymroom.jpg');
+        /* width: 555px;
+            height: 666px; */
+    }
+
+    #left {
+        text-align: center;
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px red solid; */
+
+    }
+
+    #mid {
+        margin: 20px auto;
+        width: 50%;
+        display: block;
+        /* border: 2px rgb(43, 255, 0) solid; */
+        text-align: center;
+
+
+
+    }
+
+    #right {
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px rgb(238, 255, 0) solid; */
+
+
+    }
+
+    .navbar {
+        margin: auto;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: #845e5e;
+        padding: 0px 25px;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: #7a4c4c8c;
+        text-decoration: underline;
+
+    }
+
+    img {
+        width: 75px;
+    }
+
+    .logo {
+
+        color: #4e624e;
+        font-family: 'Baloo Bhai 2', cursive;
+        line-height: 19px;
+        font-size: 22px;
+
+    }
+
+    .btn {
+        padding: 0px 10px;
+        margin: 0px 5px;
+        color: #5d4b35;
+        background: #e7dfd4;
+        cursor: pointer;
+        border: white 2px solid;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+        /* text-align:left; */
+    }
+
+    #btn {
+        text-align: right;
+    }
+
+    .btn:hover {
+
+        background: #a596968c;
+    }
+
+    .container {
+        border: rgb(255 255 255 / 43%) 3px solid;
+        border-radius: 115px;
+        width: 21%;
+        margin: 50px 41px;
+        padding: 100px 60px;
+    }
+
+    h1 {
+        text-shadow: 3px 3px 8px rgb(0, 0, 0);
+        color: #e4dbcc;
+        text-align: center;
+    }
+
+    .formgrp input {
+        color: #e4dbcc;
+        border: #7a6e00c2 2px solid;
+        border-radius: 25px;
+        width: 300px;
+        margin: 5px 0px;
+        padding: 8px 8px;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .btn2 button {
+        text-align: center;
+        border-radius: 20px;
+        width: 312px;
+        font-size: 19px;
+    }
+</style>
+</head>
+
+<body>
+    <header class="haeding" id="left">
+        <img src="img/logo.png" alt="">
+        <div class="logo">Fitness99</div>
+    </header>
+    <header class="haeding" id="mid">
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Accessory</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <header class="haeding" id="right">
+        <div id="btn">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Welcome to FITNESS99 </h1>
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" name="Name" placeholder="Enter your Name">
+                <input type="text" name="Age" placeholder="Enter your Age">
+                <input type="text" name="Gender" placeholder="Enter your Gender">
+                <input type="text" name="Locality" placeholder="Enter your Locality">
+            </div>
+            <div class="btn2">
+                <button class="btn">Join Now</button>
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
